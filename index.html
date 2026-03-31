@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitrainer - Fitness & Gym</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">Fit<span>rainer</span></div>
+            <div class="menu-toggle" id="mobile-menu">☰</div>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container hero-content">
+            <h1>Build Your Body Strong</h1>
+            <p>Join the best fitness community. Expert trainers, modern equipment, and a proven system to hit your goals.</p>
+            <a href="#pricing" class="btn">Get Started Now</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Our <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">🏋️</div>
+                    <h3>Weight Lifting</h3>
+                    <p>Build muscle mass and increase your strength with our premium free weights and machines.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🏃</div>
+                    <h3>Cardio Training</h3>
+                    <p>Enhance your endurance and burn calories fast with our top-tier cardiovascular equipment.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🧘</div>
+                    <h3>Yoga & Flexibility</h3>
+                    <p>Improve your core strength, balance, and mental clarity through guided group yoga sessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container about-flex">
+            <div class="about-img"></div>
+            <div class="about-text">
+                <h2>Why Choose <span>Fitrainer?</span></h2>
+                <p>We are more than just a gym. We are a community dedicated to pushing you beyond your limits. With over 10 years of experience in personal training and body transformations, our certified coaches map out the exact blueprint you need to succeed.</p>
+                <p>Whether your goal is weight loss, muscle gain, or overall athletic performance, we have the tools, the space, and the knowledge to get you there safely and efficiently.</p>
+                <a href="#contact" class="btn">Meet The Team</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <h2 class="section-title">Membership <span>Plans</span></h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">$29<span>/mo</span></div>
+                    <ul>
+                        <li>Access to Gym Equipment</li>
+                        <li>Locker Room Access</li>
+                        <li>1 Free Personal Training Session</li>
+                        <li>No Contract</li>
+                    </ul>
+                    <a href="#" class="btn">Choose Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Pro</h3>
+                    <div class="price">$59<span>/mo</span></div>
+                    <ul>
+                        <li>All Basic Features</li>
+                        <li>Unlimited Group Classes</li>
+                        <li>Diet & Nutrition Plan</li>
+                        <li>Access to Sauna</li>
+                    </ul>
+                    <a href="#" class="btn">Choose Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Elite</h3>
+                    <div class="price">$99<span>/mo</span></div>
+                    <ul>
+                        <li>All Pro Features</li>
+                        <li>Bi-Weekly Personal Training</li>
+                        <li>Custom Workout Programming</li>
+                        <li>VIP Support 24/7</li>
+                    </ul>
+                    <a href="#" class="btn">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Fit<span>rainer</span></h2>
+            <p>123 Muscle Street, Fitness City, FC 90210</p>
+            <p>Email: info@fitrainer.com | Phone: (555) 123-4567</p>
+            <p>&copy; 2026 Fitrainer Theme. Designed with pure HTML & CSS.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.getElementById('nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
